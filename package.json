@@ -1,0 +1,36 @@
+{
+  "name": "cortex-seed-scheduler",
+  "version": "1.0.0",
+  "description": "A sample Cortex application that uses the default Cortex scheduler",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hkaya/cortex-seed-scheduler.git"
+  },
+  "author": "Hamza Kaya <hamza@cortexpowered.com> (http://www.cortexpowered.com/)",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/hkaya/cortex-seed-scheduler/issues"
+  },
+  "homepage": "https://github.com/hkaya/cortex-seed-scheduler#readme",
+  "devDependencies": {
+    "coffee-script": "^1.9.3",
+    "coffeeify": "^1.1.0",
+    "gulp": "^3.9.0",
+    "gulp-browserify": "^0.5.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-json-editor": "^2.2.1",
+    "gulp-less": "^3.0.3",
+    "gulp-util": "^3.0.6",
+    "gulp-zip": "^3.0.2"
+  },
+  "dependencies": {
+    "ajax": "https://s3.amazonaws.com/js.vistarmedia.com/ajax-af2c5d.tar.gz",
+    "cortex-editorial-view": "^1.0.1",
+    "honk-di": "0.0.10",
+    "vistar-ad-view-cortex": "^2.0.1"
+  }
+}

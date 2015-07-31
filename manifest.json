@@ -1,0 +1,50 @@
+{
+    "name": "cortex-seed-scheduler",
+    "version": "1.0.0",
+    "parameters": [
+        {
+            "name": "vistar.url",
+            "default": "http://staging.api.vistarmedia.com/api/v1/get_ad/json"
+        },
+        {
+            "name": "vistar.api_key",
+            "default": "<api key>"
+        },
+        {
+            "name": "vistar.network_id",
+            "default": "<network id>"
+        },
+        {
+            "name": "vistar.venue_id",
+            "default": "<venue id>"
+        },
+        {
+            "name": "vistar.cpm_floor_cents",
+            "default": "30"
+        },
+        {
+            "name": "vistar.ad_buffer_length",
+            "default": "12"
+        },
+        {
+            "name": "vistar.lat",
+            "default": "0"
+        },
+        {
+            "name": "vistar.lng",
+            "default": "0"
+        },
+        {
+            "name": "cortex.schedule",
+            "default": "a,a,a,a,a,a,e"
+        },
+        {
+            "name": "cortex.editorial.duration",
+            "default": "15000"
+        },
+        {
+            "name": "cortex.editorial.feeds",
+            "default": "http://kitchen.screenfeed.com/feed/kFc6UBE1-U6NcO2_DUT9Lg?duration=15 http://kitchen.screenfeed.com/feed/bymBtJFAI0eDVpu92F8iEA?duration=15 http://kitchen.screenfeed.com/feed/VqZWjdNCD0WEx1C6gtYSSA?duration=15 http://kitchen.screenfeed.com/feed/YYw8Xfx3gUqKu_m6owCJLg?duration=15"
+        }
+    ]
+}
